@@ -82,6 +82,14 @@ public class LogEntry implements Comparable<LogEntry>
     }
     
     /**
+     * Returns the day
+     * @return The day field from the log line.
+     */
+    public int getDay() {
+        return dataValues[DAY];
+    }
+    
+    /**
      * Create a string representation of the data.
      * This is not necessarily identical with the
      * text of the original log line.
